@@ -3,7 +3,7 @@ import sqlite3
 biblioteca = sqlite3.connect('biblioteca.db')
 cursor = biblioteca.cursor()
 
-print('Banco conectado!')
+print('Biblioteca conectada!')
 
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS livros (
